@@ -56,7 +56,7 @@ http_server.listen(port, function() {
   log_comment("server listening (port "+port+")");
 });
 var page = undefined;
-fs.readFile("basic_audio_call.html", function(error, data) {
+fs.readFile("index.html", function(error, data) {
   if (error) {
     log_error(error);
   } else {
